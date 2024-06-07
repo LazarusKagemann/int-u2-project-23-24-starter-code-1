@@ -16,4 +16,9 @@ body {
     color:white;
     text-align: center;
     background-color: black;
+    position: fixed;
+}
+
+.banner{
+
 }
