@@ -1,3 +1,4 @@
+
 /* The code below puts the title of the website in the center */
 .title { 
     text-align: center;
@@ -5,15 +6,78 @@
 
 /* The code below adds a white background-color and black text color for the body of the page. */
 body {
+    
+
+        /* Center and scale the image nicely */
+/* 
+    margin-right: 980px;
+    margin-left: 980px;
+    background-color: lightslategray;
     color: black;
-    text-align: center;
-    background-color: beige;
+    text-align: center; */
+
+    background-image: url("C:/work/u2_project/industrial_banner.jpg");
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: -50vh;
+    background-color: #f0f0f0;
 }
 
+.outer-container {
+    background-color: #141414;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 50vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #E6E6E6;
+    
+}
+
+.column {
+    background-color: #070707;
+    border: 0px solid darkblue;
+    padding: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
 
 /* The code below adds a black background-color and white text color for each section heading. */
 .section {
-    color:white;
+    color:black;
     text-align: center;
-    background-color: black;
+    background-color: darkkhaki;
+}
+
+.bg-image-img1 {
+    background-image: url("C:/work/u2_project/industrial_banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bg-image-img3 {
+    background-image: url("C:/work/u2_project/throbbing_gristle_lineup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+
+    height: 100px;
+    width: 350px;
+
+      
 }
