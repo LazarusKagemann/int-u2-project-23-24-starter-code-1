@@ -6,16 +6,6 @@
 
 /* The code below adds a white background-color and black text color for the body of the page. */
 body {
-    
-
-        /* Center and scale the image nicely */
-/* 
-    margin-right: 980px;
-    margin-left: 980px;
-    background-color: lightslategray;
-    color: black;
-    text-align: center; */
-
     background-image: url("C:/Users/lazer/nextech/websitelego/industrial_background.jpg");
 
     font-family: Arial, sans-serif;
@@ -26,6 +16,7 @@ body {
     align-items: center;
     height: -50vh;
     background-color: #f0f0f0;
+    list-style-position: inside;
 }
 
 .outer-container {
